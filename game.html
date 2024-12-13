@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="style.css">
+        <title>Quiz Rush Game2 - Game</title>
+    </head>
+    <body>
+        <script src="script.js"></script>
+
+        <div id="game-container">
+            <h1>Quiz Rush Game</h1>
+            <div id="player-turn">
+                <p><span id="current-player">It's Player 1's Turn</span></p>
+            </div>
+
+            <div id="question-box">
+                <p id="question-text">Question will appear here</p>
+                <div id="answer-options">
+                    <button class="answer-btn" id="ans1">Answer 1</button>
+                    <button class="answer-btn" id="ans2">Answer 2</button>
+                    <button class="answer-btn" id="ans3">Answer 3</button>
+                    <button class="answer-btn" id="ans4">Answer 4</button>
+                </div>
+                <div class="selected" id="selected-answer">Selected: None</div>
+            </div>
+            <div id="controls">
+                <button class="nav-btn" id="submit-btn" disabled>Submit</button>
+                <div id="timer">Time Left: <span id="time-left">30</span>s</div>
+            </div>
+        </div>
+    </body>
+</html>

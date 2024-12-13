@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="style.css">
+        <title>Quiz Rush Game2 - Select Players</title>
+    </head>
+    <body>
+        <script src="script.js"></script>
+
+        <div id="player-selection">
+            <h1>Welcome to Quiz Rush</h1>
+            <p>Select the number of players:</p>
+            <div class="playerNumber-container">
+              <button class="player-button" data-players="1">1 Player</button>
+              <button class="player-button" data-players="2">2 Players</button>
+              <button class="player-button" data-players="3">3 Players</button>
+              <button class="player-button" data-players="4">4 Players</button>
+            </div>
+            <div class="selected" id="selected-players">Selected: None</div>
+            <div class="navigation">
+            <!--<button class="nav-btn" id="next-btn" disabled>Previous</button>-->
+            <a href="./select_subject-difficulty.html">
+                <button class="nav-btn" id="next-btn" disabled>Next</button>
+            </a>
+            </div>
+        </div>
+    </body>
+</html>

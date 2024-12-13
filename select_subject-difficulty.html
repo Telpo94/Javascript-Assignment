@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="style.css">
+        <title>Quiz Rush Game2 - Select Subject & Difficulty</title>
+    </head>
+    <body>
+        <script src="script.js"></script>
+
+        <div id="settings-selection">
+            <h1>Quiz Settings</h1>
+            <p>Select Subject:</p>
+            <div class="options-section">
+                    <button class="subject-button" data-subject="HTML">HTML</button>
+                    <button class="subject-button" data-subject="CSS">CSS</button>
+                    <button class="subject-button" data-subject="JS">JavaScript</button>
+                    <button class="subject-button" data-subject="Mixed">Mixed</button>
+            </div>
+            <div class="selected" id="selected-subject">Selected: None</div>
+
+            <p>Select Difficulty:</p>
+            <div class="options-section">
+                <div class="options">
+                    <button class="difficulty-button" data-questions="3">3 Questions</button>
+                    <button class="difficulty-button" data-questions="4">4 Questions</button>
+                    <button class="difficulty-button" data-questions="5">5 Questions</button>
+                </div>
+            </div>
+            <div class="selected" id="selected-difficulty">Selected: None</div>
+            
+            <div class="navigation">
+                <a href="./index.html">
+                    <button class="nav-btn" id="backToScreen1">Previous</button>
+                </a>
+                <a href="./game.html">
+                    <button class="nav-btn" id="startGame" disabled>Start Game</button>
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
